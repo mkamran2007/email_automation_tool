@@ -4,6 +4,7 @@ sys.path.append("src")
 from add_email import add_emails
 from remove_email import delete_email
 from write_email import write_email
+from send_email import send_email
 
 def main():
     while True:
@@ -24,6 +25,8 @@ def main():
             delete_email()
         elif choice == "3":
             write_email()
+            send_email()
+        
         elif choice == "4":
             break
         else:
