@@ -26,8 +26,10 @@ def send_email():
     
     # Email details
 
-    sender_email = input("Enter your gmail : ")
-    sender_password = input("Enter password : ")
+    # sender_email = input("Enter your gmail : ")
+    # sender_password = input("Enter password : ")
+    sender_email = "letscheckit2007@gmail.com"
+    sender_password = "yerv iiag khkq abzd"
     subject = input("Enter email Subject : ")
 
     # Preparing Email
